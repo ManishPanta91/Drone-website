@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="w-full mx-auto fixed top-0 left-0 shadow-xl shadow-slate-400">
+    <!-- Navbar -->
+    <nav
+      class="w-full mx-auto fixed top-0 left-0 shadow-xl shadow-slate-400 bg-white z-10"
+    >
       <div class="max-w-7xl flex mx-auto items-center justify-between">
         <img
           class="h-[100px] w-[100px]"
-          src="assets\logo-BKiFdvqw.png"
+          src="assets/logo-BKiFdvqw.png"
           alt="logo"
         />
         <ul class="flex gap-6 cursor-pointer">
@@ -37,8 +40,10 @@
         </div>
       </div>
     </nav>
+
+    <!-- Hero Section -->
     <div
-      class="max-w-7xl flex mx-auto space-x-20 mt-[100px] items-center justify-between"
+      class="max-w-7xl flex mx-auto space-x-20 pt-[120px] items-center justify-between"
     >
       <div class="flex-1 flex flex-col items-start justify-center pl-4">
         <p
@@ -54,7 +59,6 @@
         </p>
         <div class="flex items-center justify-center gap-2 pl-4">
           <i class="fa-regular fa-circle-play text-3xl"></i>
-
           <p
             class="font-mono text-[#0f334c] text-[20px] cursor-pointer hover:text-[#f26122]"
           >
@@ -62,17 +66,39 @@
           </p>
         </div>
       </div>
-      <div class="">
+      <div>
         <img
           class="h-[400px] w-[400px] flex justify-center object-contain"
-          src="assets\HeroImg-COx_7rFU.png"
+          src="assets/HeroImg-COx_7rFU.png"
           alt="image"
         />
       </div>
     </div>
-    <div class="max-w-7xl mt-[100px] m-auto flex items-center justify-start pl-4 gap-4">
-    <hr class="border-2 w-8">
-    <p class="text-[20px] ">Services</p>
+
+    <!-- Services Section -->
+        <div class="flex flex-row  max-w-7xl mx-auto items-center pl-4">
+           <hr class="border-2 w-8  text-[#f26122] ">
+      <p class="text-[20px] ml-5 text-[#f26122]">Services</p>
+  
+        </div>
+        <div class="flex max-w-7xl space-x-20 mx-auto mt-[120px] pl-4 justify-center items-center">
+          <div class="flex-1 flex flex-col items-start justify-center">
+           <h2 class=" font-serif text-[56px]">We Help you Embrace your Future</h2>
+           <p class="text-[#0f334c] mt-[16px] text-start">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+           <div class="flex items-center justify-center mt-3 pl-3  ">
+            <i class="fa-regular fa-circle-play text-3xl text-[#0f334c] hover:text-[#f26122]"></i>
+            <p class="font-semibold ml-3">Discover More </p>
+           </div>
+          </div>
+          <div class="grid grid-cols-2 gap-20 pb-5 ">
+            <div class="h-40 w-40 border-2 shadow-2xl"></div>
+            <div class="h-40 w-40 border-2 shadow-2xl"></div>
+            <div class="h-40 w-40 border-2 shadow-2xl"></div>
+            <div class="h-40 w-40 border-2 shadow-2xl"></div>
+          
+          </div>
+        </div>
+     
     </div>
   </body>
 </html>
